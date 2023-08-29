@@ -1,9 +1,14 @@
 import './App.css';
+import Button from './Button';
+import './index.css'
+
 
 function App() {
   return (
     <div className="App">
-      <h1 className="title">My Portfolio</h1>
+      <Button label="Login" className='btn'/>
+      <Button label="Signin" className='btn-signin'/>
+      {/* <h1 className="title">My Portfolio</h1>
       <div className="name_details">
       <h2>Philia Hammond</h2>
       <p>+233 249588151 | philiahammmond@gmail.com | https://www.linkedin.com/in/philiahammond</p>
@@ -54,7 +59,7 @@ to continuously improve my skills and deliver exceptional results.
       <p>Azubi Africa Front-End Development Program</p>
       <h4>Bachelor of Science: Home Science (Consumer Science) Sept, 2008 - June, 2012</h4>
       <p>University of Ghana</p>
-    </div>
+    </div> */}
     </div>
   );
 }
